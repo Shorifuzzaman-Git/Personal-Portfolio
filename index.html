@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/024bbf11a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">S. Shuvo</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <i class="fa-solid fa-xmark" id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:0;">Home</a>
+            <a href="#about" style="--i:1;">About</a>
+            <a href="#skill" style="--i:2;">Skill</a>
+            <a href="#project" style="--i:3;">Project</a>
+            <a href="#contact" style="--i:4;">Contact</a>
+            <!-- <a href="#" style="--i:4;">Footer</a> -->
+        </nav>
+    </header>
+
+    <div class="home" id="home">
+        <div class="home-div1">
+            <div class="info">
+                <h1 style="color: rgb(10, 233, 233); font-size: 50px;font-weight: 700;">
+                    Hi
+                    <i class="fa-solid fa-hands-clapping hi-icon-design"></i>
+                </h1>
+
+                <h1 class="name-gradient-effect">
+                    <span style="color: blue; font-size: 3rem;">I'm </span>
+                    Shorifuzzaman Shuvo
+                </h1>
+
+                <h3>Software Engineering 3rd year student</h3>
+                <h3>Shahjalal University of Science and Technology,Sylhet,Bangladesh</h3>
+
+                <div class="resume">
+                    <a href="resume.pdf" download class="resume_download">Download Resume</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-div2">
+            <img src="Profile2.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="about-header">
+            <h1>About me</h1>
+        </div>
+
+        <div class="about-des">
+            <p>I am a Software Engineering student with a strong foundation in algorithms, clean code, and scalable
+                architecture.Passionate about building efficient web and mobile applications, solving real-world problems, and
+                continuously learning new technologies.</p>
+
+            <p>
+                <span style="color: rgb(234, 238, 145);font-size: 25px;padding: 5px; font-weight: bold;">My journey so far includes:</span>
+                <br>📚 Mastering Data Structures and Algorithms
+                <br>🧠 Engaging in Competitive Programming
+                <br>💻 Exploring Full-Stack Development
+                <br>🤖 Actively learning AI, Machine Learning, and Deep Learning
+                <br>🗄️ Working with Databases and backend technologies
+            </p>
+        </div>
+    </div>
+
+    <div class="skill" id="skill">
+        <div class="skill-title">
+            <h1>Technical Skills</h1>
+        </div>
+
+        <div class="skill-body">
+
+            <div class="skill-card">
+                <img src="letter-c.png">
+                <h4>C</h4>
+            </div>
+
+            <div class="skill-card">
+                <img src="c-.png">
+                <h4>C++</h4>
+            </div>
+
+            <div class="skill-card">
+                <img src="java.png">
+                <h4>Java</h4>
+            </div>
+
+            <div class="skill-card">
+                <img src="html.png">
+                <h4>HTML</h4>
+            </div>
+
+            <div class="skill-card">
+                <img src="css-3.png">
+                <h4>CSS</h4>
+            </div>
+
+            <div class="skill-card">
+                <img src="java-script.png">
+                <h4>JS</h4>
+            </div>
+
+            <div class="skill-card">
+                <img src="python.png">
+                <h4>Python</h4>
+            </div>
+
+            <div class="skill-card">
+                <img src="social.png" alt="">
+                <h4>Git</h4>
+            </div>
+
+            <div class="skill-card">
+                <img src="mysql.png">
+                <h4>SQL</h4>
+            </div>
+
+            <div class="skill-card">
+                <img src="physics.png">
+                <h4>React</h4>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="project" id="project">
+
+        <div class="project-title">
+            <h1>My Projects</h1>
+        </div>
+
+        <div class="project-body">
+
+            <div class="project-card">
+                <img src="snake-game.webp" alt="">
+
+                <div class="project-card-title">
+                    Snake Game
+                </div>
+
+                <div class="project-card-des">
+                    <p>Create a Snake Game using SDL2 and C++</p>
+
+                    <button class="project-card-button" onclick="window.open('https:/github.com/Shorifuzzaman-Git/snk','_blank')">
+                        <i style="color: aliceblue;" class="fa-brands fa-github"></i>
+                        View on GitHub
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <img src="space-invaders.jpg" alt="">
+
+                <div class="project-card-title">
+                    Space Invaders
+                </div>
+
+                <div class="project-card-des">
+                    <p>Create a Space Invaders Game using Java and JavaFx</p>
+
+                    <button class="project-card-button" onclick="window.open('https:/github.com/Shorifuzzaman-Git/Space-Invaders-game.java','_blank')">
+                        <i style="color: aliceblue;" class="fa-brands fa-github"></i>
+                        View on GitHub
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <img src="calculator.png" alt="">
+
+                <div class="project-card-title">
+                    Calculator
+                </div>
+
+                <div class="project-card-des">
+                    <p>Create a simple calculator using Java and JavaFx</p>
+
+                    <button class="project-card-button" onclick="window.open('https:/github.com/Shorifuzzaman-Git/Calculator-Project-using-JavaFX','_blank')">
+                        <i style="color: aliceblue;" class="fa-brands fa-github"></i>
+                        View on GitHub
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <img src="muslim.png" alt="">
+
+                <div class="project-card-title">
+                    Muslim App
+                </div>
+
+                <div class="project-card-des">
+                    <p>Create a Muslim android app usin Java in android studio.</p>
+
+                    <button class="project-card-button" onclick="window.open('https:/github.com/Shorifuzzaman-Git/andriod_250','_blank')">
+                        <i style="color: aliceblue;" class="fa-brands fa-github"></i>
+                        View on GitHub
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+
+        <div class="contact-title">
+            <h1>Let's Connect</h1>
+        </div>
+
+        <div class="contact-body">
+
+            <div class="contact-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Sylhet, Bangladesh</h3>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Phone : +880 1959-039221</h3>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email : shorifuzzaman1009@gmail.com</h3>
+            </div>
+
+            <div class="contact-card" onclick="window.open('https:/github.com/Shorifuzzaman-Git','_blank')">
+                <i class="fa-brands fa-github"></i>
+                <h3>GitHub : Shorifuzzaman-Git</h3>
+            </div>
+
+        </div>
+
+        <div class="form">
+            <div class="form-title">
+                <h3>Lets get in touch. Send me a message:</h3>
+            </div>
+
+            <div class="form-input-items">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Subject">
+                <input type="text" placeholder="Message">
+            </div>
+
+            <div class="form-submit-button">
+                <button>
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Send message
+                </button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-icon">
+            <i class="fa-brands fa-square-facebook" onclick="window.open('https:/www.facebook.com/shorifuzzaman.shuvo','_blank')"></i>
+            <i class="fa-brands fa-square-github" onclick="window.open('https:/github.com/Shorifuzzaman-Git','_blank')"></i>
+            <i class="fa-brands fa-linkedin" onclick="window.open('https:/www.linkedin.com/in/shorifuzzaman-shuvo-96869035b/','_blank')"></i>
+            <i class="fa-brands fa-x-twitter" onclick="window.open('https:/x.com/Shuvo100912','_blank')"></i>
+            <p style="color: white;font-size: 15px;text-align: center;margin-top: 10px;margin-right: 30px;">@ 2025 s_shuvo.dev</p>
+        </div>
+    </div>
+
+</body>
+</html>
