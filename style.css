@@ -65,6 +65,7 @@ body {
     color: white;
     font-weight: 500;
     margin-left: 2.5rem;
+    cursor: pointer;
 }
 
 #check {
