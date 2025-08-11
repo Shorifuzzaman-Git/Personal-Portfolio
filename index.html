@@ -289,7 +289,57 @@
         </div>
     </div>
 
-    <script src="index.js"></script>
+    <script>
+        const homeNav=document.getElementById("home-nav");
+homeNav.addEventListener("click",function(event){
+    event.preventDefault();
+
+    const homeSection=document.getElementById("home");
+    homeSection.scrollIntoView({
+        behavior:"smooth"
+    });
+});
+
+const aboutNav=document.getElementById("about-nav");
+aboutNav.addEventListener("click",function(event){
+    event.preventDefault();
+    const aboutSection=document.getElementById("about");
+    aboutSection.scrollIntoView({
+        behavior:"smooth"
+    });
+});
+
+
+const skillNav=document.getElementById("skill-nav");
+skillNav.addEventListener("click",function(event){
+    event.preventDefault();
+    
+    const skillSection=document.getElementById("skill");
+    skillSection.scrollIntoView({
+        behavior:"smooth"
+    });
+});
+
+const projectNav=document.getElementById("project-nav");
+projectNav.addEventListener("click",function(event){
+    event.preventDefault();
+    const projectSection=document.getElementById("project");
+    projectSection.scrollIntoView({
+        behavior:"smooth"
+    });
+});
+
+const contactNav=document.getElementById("contact-nav");
+contactNav.addEventListener("click",function(event){
+    event.preventDefault();
+    const contactSection=document.getElementById("contact");
+    contactSection.scrollIntoView({
+        behavior:"smooth"
+    });
+});
+
+
+    </script>
 
 </body>
 </html>
